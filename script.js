@@ -14,7 +14,7 @@ var words = ["..............","Helloo world","please dont exit yet", "Dont worry
 "So let's hold on tight, and enjoy the ride,",
 "With all its twists and turns, side by side.",
 "It's okay, we'll make it through,",
-"With a little help from me, and you.","3","2","1","........","Weeee Can doooo IT"]
+"With a little help from me, and you.","3","2","1","........","Weeee Can doooo IT","Please share it to your friend"," and prank them with love and care","byyyeeeeeeerrs"]
 var index = 0; // Initialize the index
 
 function typeWriter() {
