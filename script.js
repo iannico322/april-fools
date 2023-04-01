@@ -4,12 +4,10 @@ var words = ["..............","Helloo world", "please dont exit yet", "Dont worr
 "Hey friend, I know things may seem tough,",
 "But please remember, life can be rough.",
 "Ups and downs are part of the ride,",
-"But with you by my side, I'll be alright.",
 
 "It's okay to stumble, to make mistakes,",
 "To feel lost, and to need a break.",
 "We're only human, we're not perfect,",
-"But together, we can still make it.",
 
 "So let's hold on tight, and enjoy the ride,",
 "With all its twists and turns, side by side.",
