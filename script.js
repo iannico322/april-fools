@@ -1,4 +1,4 @@
-var words = ["..............","Helloo world","please dont exit yet", "Dont worry it's not prank you", "..............",
+var words = ["..............","Helloo world","please dont exit yet", "Dont worry it's not a prank ", "..............",
 
 
 "Hey friend, I know things may seem tough,",
@@ -14,7 +14,7 @@ var words = ["..............","Helloo world","please dont exit yet", "Dont worry
 "So let's hold on tight, and enjoy the ride,",
 "With all its twists and turns, side by side.",
 "It's okay, we'll make it through,",
-"With a little help from me, and you.","3","2","1","........","Weeee Can doooo ITTT"]
+"With a little help from me, and you.","3","2","1","........","Weeee Can doooo IT"]
 var index = 0; // Initialize the index
 
 function typeWriter() {
@@ -24,6 +24,8 @@ function typeWriter() {
   // Loop through each character of the current word
   for (var i = 0; i < currentWord.length; i++) {
     // Use a closure to capture the value of i at each iteration of the loop
+    
+    
     (function(i) {
       // Set a timeout to add each character to the text variable with a delay
       setTimeout(function() {
