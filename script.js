@@ -1,4 +1,4 @@
-var words = ["..............","Helloo world","please dont exit yet", "Dont worry it's not a prank ", "..............",
+var words = ["..............","Helloo world", "please dont exit yet", "Dont worry it's not a prank ", "..............",
 
 
 "Hey friend, I know things may seem tough,",
@@ -14,12 +14,19 @@ var words = ["..............","Helloo world","please dont exit yet", "Dont worry
 "So let's hold on tight, and enjoy the ride,",
 "With all its twists and turns, side by side.",
 "It's okay, we'll make it through,",
-"With a little help from me, and you.","3","2","1","........","Weeee Can doooo IT","Please share it to your friend"," and prank them with love and care","byyyeeeeeeerrs"]
+"With a little help from me, and you.","3","2","1","........","Weeee Can doooo IT","You can share it to your friend/s"," and prank them with love and care","byeeeeeeeeeeeeeeeeeee","exit"]
 var index = 0; // Initialize the index
+
+const link = document.querySelector('.link')
+
 
 function typeWriter() {
   var text = ""; // Initialize the text variable
   var currentWord = words[index]; // Get the current word from the list
+
+  if(currentWord == "exit"){
+    link.click()
+  }
   
   // Loop through each character of the current word
   for (var i = 0; i < currentWord.length; i++) {
